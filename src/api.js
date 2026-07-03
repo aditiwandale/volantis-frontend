@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'volantis-backend-production.up.railway.app',  // ← Your Railway URL
+  baseURL: 'https://volantis-backend.onrender.com',  // ← Your Railway URL
 });
 
 api.interceptors.request.use((config) => {
